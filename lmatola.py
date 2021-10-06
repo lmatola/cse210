@@ -1,4 +1,4 @@
 def main():
-    print("Hello everyone! Nice to meet you.")
+    print("Welcome to our collaborative program")
 
 main()
