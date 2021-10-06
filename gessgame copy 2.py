@@ -31,7 +31,7 @@ def computer_guess():
             high = guess - 1
             Next_card = input(f"Next card was: {guess2}")
 
-            if guess2 > guess:
+            if guess2 >= guess:
                 score = 100
                 Score_list.append(score)
             else:
@@ -42,7 +42,7 @@ def computer_guess():
             low = guess + 1
             Next_card = input(f"Next card was: {guess2}")
 
-            if guess2 < guess:
+            if guess2 <= guess:
                 score = 100
                 Score_list.append(score)
             else:
