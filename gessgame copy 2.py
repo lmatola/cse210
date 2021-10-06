@@ -25,7 +25,7 @@ def computer_guess():
         guess = random.randint(1, 13)
         guess2 = random.randint(1, 13)
         card = input(f"The card is: {guess}")
-        feedback = input("Higher or lower? [h/l] ")
+        feedback = input("Higher or lower? [h/l] ").lower()
             
         if feedback == "h":
             high = guess - 1
@@ -49,7 +49,7 @@ def computer_guess():
                 score = -75
                 Score_list.append(score)
         
-        sum = 0
+        sum = 300
         for score in Score_list:
             sum += score     
         print(f"Your score is: {sum}")
