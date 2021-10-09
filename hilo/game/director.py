@@ -68,7 +68,7 @@ class Director:
             self (Director): An instance of Director.
         """
         
-        Next_card = input(f"Next card was: {self.dealer.result2}")        
+        print(f"Next card was: {self.dealer.result2}")        
         print(f"Your score is: {self.score}")
         if self.score <= 0:
             self.dealer.score_list.clear()
